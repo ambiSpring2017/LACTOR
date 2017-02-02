@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4369B4DB18355712F450F961 /* Pods_LACTOR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1918AFD46410841300C42BAA /* Pods_LACTOR.framework */; };
 		CC7C8BEF1E437BB000B8A395 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C8BEE1E437BB000B8A395 /* AppDelegate.swift */; };
 		CC7C8BF11E437BB000B8A395 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7C8BF01E437BB000B8A395 /* ViewController.swift */; };
 		CC7C8BF41E437BB100B8A395 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7C8BF21E437BB100B8A395 /* Main.storyboard */; };
 		CC7C8BF61E437BB100B8A395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7C8BF51E437BB100B8A395 /* Assets.xcassets */; };
 		CC7C8BF91E437BB100B8A395 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7C8BF71E437BB100B8A395 /* LaunchScreen.storyboard */; };
+		CC7C8C011E438DE900B8A395 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC7C8C001E438DE900B8A395 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1918AFD46410841300C42BAA /* Pods_LACTOR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LACTOR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59588159F57D861FCDA836CD /* Pods-LACTOR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LACTOR.release.xcconfig"; path = "Pods/Target Support Files/Pods-LACTOR/Pods-LACTOR.release.xcconfig"; sourceTree = "<group>"; };
 		CC7C8BEB1E437BB000B8A395 /* LACTOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LACTOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7C8BEE1E437BB000B8A395 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC7C8BF01E437BB000B8A395 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		CC7C8BF51E437BB100B8A395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC7C8BF81E437BB100B8A395 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC7C8BFA1E437BB100B8A395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC7C8C001E438DE900B8A395 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F17726E4B425D81A0888F29B /* Pods-LACTOR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LACTOR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LACTOR/Pods-LACTOR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4369B4DB18355712F450F961 /* Pods_LACTOR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7AC2949BE3C125188A9C595A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1918AFD46410841300C42BAA /* Pods_LACTOR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83707A26D6E0263FD0842227 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F17726E4B425D81A0888F29B /* Pods-LACTOR.debug.xcconfig */,
+				59588159F57D861FCDA836CD /* Pods-LACTOR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CC7C8BE21E437BA900B8A395 = {
 			isa = PBXGroup;
 			children = (
 				CC7C8BED1E437BB000B8A395 /* LACTOR */,
 				CC7C8BEC1E437BB000B8A395 /* Products */,
+				83707A26D6E0263FD0842227 /* Pods */,
+				7AC2949BE3C125188A9C595A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +83,7 @@
 				CC7C8BEE1E437BB000B8A395 /* AppDelegate.swift */,
 				CC7C8BF01E437BB000B8A395 /* ViewController.swift */,
 				CC7C8BF21E437BB100B8A395 /* Main.storyboard */,
+				CC7C8C001E438DE900B8A395 /* GoogleService-Info.plist */,
 				CC7C8BF51E437BB100B8A395 /* Assets.xcassets */,
 				CC7C8BF71E437BB100B8A395 /* LaunchScreen.storyboard */,
 				CC7C8BFA1E437BB100B8A395 /* Info.plist */,
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC7C8BFD1E437BB100B8A395 /* Build configuration list for PBXNativeTarget "LACTOR" */;
 			buildPhases = (
+				1236C7BC54D7A78223EBA4C3 /* [CP] Check Pods Manifest.lock */,
 				CC7C8BE71E437BAB00B8A395 /* Sources */,
 				CC7C8BE81E437BAB00B8A395 /* Frameworks */,
 				CC7C8BE91E437BAB00B8A395 /* Resources */,
+				E4D53AB6C57B79A69EDD585C /* [CP] Embed Pods Frameworks */,
+				1ED9EC63B80AAA57AEC3F127 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,12 +154,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC7C8BF91E437BB100B8A395 /* LaunchScreen.storyboard in Resources */,
+				CC7C8C011E438DE900B8A395 /* GoogleService-Info.plist in Resources */,
 				CC7C8BF61E437BB100B8A395 /* Assets.xcassets in Resources */,
 				CC7C8BF41E437BB100B8A395 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1236C7BC54D7A78223EBA4C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1ED9EC63B80AAA57AEC3F127 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LACTOR/Pods-LACTOR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4D53AB6C57B79A69EDD585C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LACTOR/Pods-LACTOR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC7C8BE71E437BAB00B8A395 /* Sources */ = {
@@ -258,6 +337,7 @@
 		};
 		CC7C8BFE1E437BB100B8A395 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F17726E4B425D81A0888F29B /* Pods-LACTOR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LACTOR/Info.plist;
@@ -270,6 +350,7 @@
 		};
 		CC7C8BFF1E437BB100B8A395 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59588159F57D861FCDA836CD /* Pods-LACTOR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LACTOR/Info.plist;
@@ -299,6 +380,7 @@
 				CC7C8BFF1E437BB100B8A395 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,6 @@
+framework module Pods_LACTOR {
+  umbrella header "Pods-LACTOR-umbrella.h"
+
+  export *
+  module * { export * }
+}
